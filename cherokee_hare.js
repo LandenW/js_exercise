@@ -5,9 +5,9 @@ var birthRate = .5;
 var numberOfWeeks = 2;
 
 
-for (i = 0; i <  numberOfWeeks; i++) {
+for (let i = 0; i <  numberOfWeeks; i++) {
 
-var newPop = startingPopulation * birthRate + startingPopulation
+var newPop = parseInt(startingPopulation * birthRate + startingPopulation);
 
 }
 
